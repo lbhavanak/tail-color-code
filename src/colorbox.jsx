@@ -1,6 +1,6 @@
 function ColorBox({ color }) {
   return (
-    <div 
+    <div
       style={{
         width: '100px',
         height: '100px',
@@ -10,7 +10,7 @@ function ColorBox({ color }) {
         marginTop: '20px'
       }}
     ></div>
-  )
+  );
 }
 
-export default ColorBox
+export default ColorBox;
