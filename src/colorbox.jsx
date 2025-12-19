@@ -1,16 +1,16 @@
 function ColorBox({ color }) {
   return (
-    <div
+    <div 
       style={{
-        margin: "30px auto",
-        width: "90px",
-        height: "90px",
+        width: '100px',
+        height: '100px',
+        borderRadius: '50%',
         backgroundColor: color,
-        borderRadius: "780px",
-        border: "10px solid #46d41fff",
+        border: '5px solid green',
+        marginTop: '20px'
       }}
     ></div>
-  );
+  )
 }
 
-export default ColorBox;
+export default ColorBox
