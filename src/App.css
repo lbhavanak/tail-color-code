@@ -1,4 +1,30 @@
 
-h1{
+/* App.css */
+
+body, html, #root {
+  height: 100%;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.App {
+  display: flex;
+  flex-direction: column; /* stack items vertically */
+  justify-content: center; /* vertical center */
+  align-items: center;     /* horizontal center */
+  height: 100vh;           /* full viewport height */
   text-align: center;
+  background-color: #f9f9f9; /* optional background */
+}
+
+input[type="color"] {
+  margin-top: 20px;
+  width: 60px;
+  height: 60px;
+  border: none;
+  cursor: pointer;
+}
+
+h1 {
+  margin-bottom: 20px;
 }
